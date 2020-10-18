@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @procuct.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @procuct.price %>
+</p>
+
+<p>
+  <strong>Vendor:</strong>
+  <%= @procuct.vendor %>
+</p>
+
+<%= link_to 'Edit', edit_procuct_path(@procuct) %> |
+<%= link_to 'Back', procucts_path %>
